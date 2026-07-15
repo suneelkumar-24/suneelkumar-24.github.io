@@ -1,14 +1,14 @@
 :root {
-    --bg-dark: #030510;
-    --glass-bg: rgba(15, 20, 35, 0.6);
-    --glass-border: rgba(255, 255, 255, 0.05);
-    --glass-highlight: rgba(255, 255, 255, 0.1);
+    --bg-dark: #230c3d; /* Elegant deep purple */
+    --glass-bg: rgba(45, 18, 77, 0.5); /* Purple tinted glass */
+    --glass-border: rgba(255, 255, 255, 0.08);
+    --glass-highlight: rgba(255, 255, 255, 0.15);
     
     --neon-cyan: #00e5ff;
-    --neon-purple: #b53cff;
+    --neon-purple: #d77aff; /* Made slightly lighter to pop on purple */
     
     --text-main: #f8fafc;
-    --text-dim: #94a3b8;
+    --text-dim: #b8a3d6; /* Slightly purple tinted gray for muted text */
     
     --font-main: 'Outfit', sans-serif;
     --font-mono: 'JetBrains Mono', monospace;
