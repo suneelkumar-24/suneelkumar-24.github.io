@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suneel Kumar | Full Stack Web Developer</title>
+    <meta name="description" content="Portfolio of Suneel Kumar, Full Stack Web Developer, Educator, and Freelancer.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;800;900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Ambient Background Glows -->
+    <div class="ambient-glow glow-1"></div>
+    <div class="ambient-glow glow-2"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="logo">
+            <span class="highlight">Suneel</span>Kumar<span class="accent-dot">.</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Flagship Work</a></li>
+            <li><a href="#mentorship">Mentorship</a></li>
+            <li><a href="#contact" class="nav-cta">Let's Talk <i class="fas fa-arrow-right"></i></a></li>
+        </ul>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section-container">
+        <div class="hero-content">
+            <p class="greeting mono-text"><i class="fas fa-terminal"></i> FULL-STACK DEVELOPER · CS & WEB-DEV EDUCATOR</p>
+            <h1 class="name">Suneel Kumar</h1>
+            <h2 class="title">I build <span class="gradient-text">complete software systems</span> for real businesses.</h2>
+            <p class="subtitle">Schools, training institutes, industrial dealers — if it runs on structured data and real people, I've probably built something like it. Full-stack development since 2018, freelancing on Upwork and Fiverr, teaching web development and computer science alongside.</p>
+            
+            <div class="hero-buttons">
+                <a href="#work" class="btn btn-primary">View my work <i class="fas fa-briefcase"></i></a>
+                <a href="https://wa.me/923196408260" target="_blank" class="btn btn-wa"><i class="fab fa-whatsapp"></i> WhatsApp Me</a>
+            </div>
+            
+            <div class="social-links-hero">
+                <a href="https://github.com/suneelkumar-24" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/suneelkumar-dev/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="http://fb.com/suneelnakhtani" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.upwork.com/freelancers/suneelk5" target="_blank"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 13.5c-2 0-3.5-1.5-3.5-3.5s1.5-3.5 3.5-3.5 3.5 1.5 3.5 3.5-1.5 3.5-3.5 3.5zM17.5 4.5c-3 0-5.5 2.5-5.5 5.5v5h-2v-11h-2v11c0 2.2-1.8 4-4 4s-4-1.8-4-4v-11h-2v11c0 3.3 2.7 6 6 6 2.3 0 4.3-1.3 5.3-3.2v2.7h2v-2.7c1 1.9 3 3.2 5.3 3.2 3.3 0 6-2.7 6-6s-2.7-6-6-6z"/></svg></a>
+                <a href="https://www.fiverr.com/kumar_suneel" target="_blank"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20 7h-6V4c0-1.1.9-2 2-2h4V0h-4c-2.2 0-4 1.8-4 4v3H8V4c0-1.1.9-2 2-2h4V0h-4C7.8 0 6 1.8 6 4v3H2v2h4v15h4V9h4v15h4V9h2V7h-2z"/></svg></a>
+            </div>
+        </div>
+        
+        <div class="hero-stats">
+            <div class="stat-card glass-panel">
+                <h3 class="stat-number gradient-text">100+</h3>
+                <p class="stat-text mono-text">Projects Completed</p>
+            </div>
+            <div class="stat-card glass-panel">
+                <h3 class="stat-number gradient-text">70+</h3>
+                <p class="stat-text mono-text">5-Star Reviews</p>
+            </div>
+            <div class="stat-card glass-panel">
+                <h3 class="stat-number gradient-text">4</h3>
+                <p class="stat-text mono-text">Flagship Systems Live</p>
+            </div>
+            <div class="stat-card glass-panel">
+                <h3 class="stat-number gradient-text">1K+</h3>
+                <p class="stat-text mono-text">Students Taught</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Section -->
+    <section id="work" class="work section-container">
+        <div class="section-header">
+            <p class="section-eyebrow mono-text">Flagship Work</p>
+            <h2>Systems I've built and <span class="gradient-text">shipped to production</span></h2>
+            <p class="section-subtitle">These are the biggest, most complete builds — full products, not one-off scripts.</p>
+        </div>
+        
+        <div class="project-grid">
+            <!-- Mastermox -->
+            <div class="project-card glass-panel">
+                <div class="pc-top">
+                    <div>
+                        <h3 class="pc-title">Mastermox</h3>
+                        <p class="pc-tagline">AI-powered test-preparation platform for entry tests, board exams, and university admissions.</p>
+                    </div>
+                    <span class="status-pill"><i class="fas fa-circle"></i> LIVE</span>
+                </div>
+                <div class="pc-body">
+                    <p><strong>The problem:</strong> Students preparing for entry tests or board exams have no single tool that adapts to their exact syllabus.</p>
+                    <p><strong>How it works:</strong></p>
+                    <ul>
+                        <li>AI auto-detects each subject's real curriculum for any country's board.</li>
+                        <li>Generates up to 300 MCQs per topic, patterned on real questions.</li>
+                        <li>Two modes: Prep (instant explanations) and Exam (timed).</li>
+                    </ul>
+                    <div class="tag-row">
+                        <span class="tag">AI Generation</span>
+                        <span class="tag">Adaptive Testing</span>
+                        <span class="tag">React / Node.js</span>
+                    </div>
+                    <a href="https://mastermox.com" target="_blank" class="pc-link">mastermox.com <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+
+            <!-- Schoolnizam -->
+            <div class="project-card glass-panel">
+                <div class="pc-top">
+                    <div>
+                        <h3 class="pc-title">Schoolnizam</h3>
+                        <p class="pc-tagline">Full school-management SaaS — admissions, attendance, quizzes, notifications for an entire campus.</p>
+                    </div>
+                    <span class="status-pill"><i class="fas fa-circle"></i> LIVE</span>
+                </div>
+                <div class="pc-body">
+                    <p><strong>Used by:</strong> Sindh Academy Umerkot — running its full campus operations on Schoolnizam.</p>
+                    <p><strong>Features:</strong></p>
+                    <ul>
+                        <li>Student type: Physical or Online; enrollment: Regular or Guest.</li>
+                        <li>QR-based attendance check-in/out, full history synced to apps.</li>
+                        <li>SMS, WhatsApp & email notifications for schedules and fees.</li>
+                    </ul>
+                    <div class="tag-row">
+                        <span class="tag">Multi-campus</span>
+                        <span class="tag">QR Attendance</span>
+                        <span class="tag">Laravel / PHP</span>
+                    </div>
+                    <a href="https://sindhacademyumerkot.com" target="_blank" class="pc-link">See it in use <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            
+            <!-- STC -->
+            <div class="project-card glass-panel">
+                <div class="pc-top">
+                    <div>
+                        <h3 class="pc-title">STC — Super Sys-Tech</h3>
+                        <p class="pc-tagline">Public website + secure digital portal for a 29-year-old IT training institute in Umerkot.</p>
+                    </div>
+                    <span class="status-pill"><i class="fas fa-circle"></i> LIVE</span>
+                </div>
+                <div class="pc-body">
+                    <p><strong>The brief:</strong> A training institute needed a public site for marketing, plus a separate secure portal for students and admin.</p>
+                    <ul>
+                        <li>Public site: course catalogue, faculty, gallery, online admission.</li>
+                        <li>Secure portal: billing, digital assessments, attendance.</li>
+                        <li>Public notice board for exam schedules.</li>
+                    </ul>
+                    <div class="tag-row">
+                        <span class="tag">Student Portal</span>
+                        <span class="tag">Role-based login</span>
+                        <span class="tag">PHP / MySQL</span>
+                    </div>
+                    <a href="https://stc.edu.pk" target="_blank" class="pc-link">stc.edu.pk <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+
+            <!-- SIP Track Pod -->
+            <div class="project-card glass-panel">
+                <div class="pc-top">
+                    <div>
+                        <h3 class="pc-title">SIP Track Pod</h3>
+                        <p class="pc-tagline">Dealer consignment-tracking portal for SIP Industrial, a UK-based industrial supplier.</p>
+                    </div>
+                    <span class="status-pill"><i class="fas fa-circle"></i> LIVE</span>
+                </div>
+                <div class="pc-body">
+                    <p><strong>The brief:</strong> Authorised dealers needed to track shipments across multiple carriers without calling support.</p>
+                    <ul>
+                        <li>Account-number + PIN dealer login for tracking.</li>
+                        <li>Multi-carrier dashboard (FedEx, Pall-Ex, TNT) with daily updates.</li>
+                        <li>Live deliverability stats per carrier, separate admin login.</li>
+                    </ul>
+                    <div class="tag-row">
+                        <span class="tag">Logistics</span>
+                        <span class="tag">API Integration</span>
+                        <span class="tag">PHP</span>
+                    </div>
+                    <a href="https://sip-track-pod.com" target="_blank" class="pc-link">sip-track-pod.com <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mentorship Section -->
+    <section id="mentorship" class="mentorship section-container">
+        <div class="section-header">
+            <p class="section-eyebrow mono-text">Education & Mentorship</p>
+            <h2>Empowering <span class="gradient-text">Minds</span></h2>
+            <p class="section-subtitle">Teaching is a massive part of who I am. I don't just write code; I teach others how to build.</p>
+        </div>
+        
+        <div class="mentorship-grid">
+            <div class="mentorship-card glass-panel featured-card">
+                <div class="card-icon"><i class="fas fa-star"></i></div>
+                <h3>The Youngest Achievers</h3>
+                <p>I take pride in mentoring young talent. One of my students, <strong>Mahesh Khatri (12 years old)</strong>, secured 1st Position in a Grand Website Development Competition and now teaches web development on YouTube! I have students even younger than him building amazing things.</p>
+                <a href="https://www.youtube.com/@WebdevWithMahesh" target="_blank" class="btn btn-secondary btn-small">Visit Mahesh's Channel <i class="fab fa-youtube"></i></a>
+            </div>
+            
+            <div class="mentorship-card glass-panel">
+                <div class="card-icon"><i class="fas fa-users"></i></div>
+                <h3>NAVTTC Batches</h3>
+                <p>Successfully trained <strong>3 complete batches</strong> under the NAVTTC program, preparing adults for the modern IT workforce with practical, hands-on development skills and freelancing.</p>
+            </div>
+            
+            <div class="mentorship-card glass-panel">
+                <div class="card-icon"><i class="fas fa-globe"></i></div>
+                <h3>1,000+ Students Worldwide</h3>
+                <p>Across physical classrooms and online platforms, I have guided over a thousand individuals through the complexities of programming, helping them launch successful careers.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About & Skills Section -->
+    <section id="about" class="about section-container">
+        <div class="about-grid">
+            <div class="about-text-content">
+                <p class="section-eyebrow mono-text">About Me</p>
+                <h2>Developer by trade,<br> <span class="gradient-text">teacher by habit</span></h2>
+                <p class="about-p">I teach web development and computer science alongside building software — every system I build is shaped by sitting across from the people who'll use it, whether that's students, school admins, or a dealer tracking a shipment.</p>
+                <p class="about-p">Education happens to be where two of my biggest builds live, but the systems themselves apply to almost any industry that runs on structured data and real people.</p>
+            </div>
+            <div class="skills-content glass-panel">
+                <h3 class="mono-text"><i class="fas fa-code"></i> Tech Stack & Expertise</h3>
+                <div class="skills-cloud">
+                    <span class="skill-tag">Laravel</span>
+                    <span class="skill-tag">PHP</span>
+                    <span class="skill-tag">React</span>
+                    <span class="skill-tag">Next.js</span>
+                    <span class="skill-tag">Vue.js</span>
+                    <span class="skill-tag">Node.js</span>
+                    <span class="skill-tag">WordPress</span>
+                    <span class="skill-tag">.NET / C#</span>
+                    <span class="skill-tag">MySQL</span>
+                    <span class="skill-tag">SaaS Architecture</span>
+                    <span class="skill-tag">AI Integration</span>
+                </div>
+                
+                <div class="freelance-stats">
+                    <div class="fs-item">
+                        <i class="fas fa-star"></i>
+                        <span>Top Rated Freelancer</span>
+                    </div>
+                    <div class="fs-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>300+ Deliveries</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-container">
+        <div class="contact-box glass-panel">
+            <div class="contact-text">
+                <p class="section-eyebrow mono-text">Get In Touch</p>
+                <h2>Have a system that <span class="gradient-text">needs building?</span></h2>
+                <p>Want to learn programming, need a mentor, or have a business that requires a robust software system? I'm highly responsive.</p>
+            </div>
+            
+            <div class="contact-actions">
+                <a href="https://wa.me/923196408260" target="_blank" class="contact-btn wa-main">
+                    <div class="cb-icon"><i class="fab fa-whatsapp"></i></div>
+                    <div class="cb-text">
+                        <span>Message on WhatsApp</span>
+                        <strong>0319 6408260</strong>
+                    </div>
+                    <i class="fas fa-arrow-right cb-arrow"></i>
+                </a>
+                
+                <div class="social-grid">
+                    <a href="https://www.linkedin.com/in/suneelkumar-dev/" target="_blank" class="social-box">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://github.com/suneelkumar-24" target="_blank" class="social-box">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="http://fb.com/suneelnakhtani" target="_blank" class="social-box">
+                        <i class="fab fa-facebook"></i>
+                        <span>Facebook</span>
+                    </a>
+                    <a href="https://www.upwork.com/freelancers/suneelk5" target="_blank" class="social-box">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 13.5c-2 0-3.5-1.5-3.5-3.5s1.5-3.5 3.5-3.5 3.5 1.5 3.5 3.5-1.5 3.5-3.5 3.5zM17.5 4.5c-3 0-5.5 2.5-5.5 5.5v5h-2v-11h-2v11c0 2.2-1.8 4-4 4s-4-1.8-4-4v-11h-2v11c0 3.3 2.7 6 6 6 2.3 0 4.3-1.3 5.3-3.2v2.7h2v-2.7c1 1.9 3 3.2 5.3 3.2 3.3 0 6-2.7 6-6s-2.7-6-6-6z"/></svg>
+                        <span>Upwork</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content section-container">
+            <div class="footer-logo">
+                <span class="highlight">Suneel</span>Kumar<span class="accent-dot">.</span>
+            </div>
+            <p class="mono-text">© 2026 Designed & Built for scale.</p>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp -->
+    <a href="https://wa.me/923196408260" target="_blank" class="floating-wa">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+</html>
