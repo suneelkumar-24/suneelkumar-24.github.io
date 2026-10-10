@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy - Auto Refresher Extension</title>
+  <style>
+    :root {
+      --primary: #00b887;
+      --primary-dark: #009d73;
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --text: #0f172a;
+      --text-muted: #64748b;
+      --border: #e2e8f0;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      padding: 48px;
+      border-radius: 16px;
+      border: 1px solid var(--border);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+    }
+    .header {
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 24px;
+      margin-bottom: 32px;
+    }
+    .badge {
+      display: inline-block;
+      background: #e6f7f2;
+      color: var(--primary-dark);
+      font-size: 13px;
+      font-weight: 700;
+      padding: 4px 12px;
+      border-radius: 9999px;
+      margin-bottom: 12px;
+    }
+    h1 {
+      font-size: 32px;
+      font-weight: 800;
+      color: var(--text);
+      margin-bottom: 8px;
+    }
+    .meta {
+      color: var(--text-muted);
+      font-size: 14px;
+    }
+    h2 {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--text);
+      margin-top: 32px;
+      margin-bottom: 12px;
+      border-left: 4px solid var(--primary);
+      padding-left: 12px;
+    }
+    p {
+      margin-bottom: 16px;
+      color: #334155;
+    }
+    ul {
+      margin-bottom: 16px;
+      padding-left: 24px;
+      color: #334155;
+    }
+    li {
+      margin-bottom: 8px;
+    }
+    .highlight-box {
+      background: #f0fdf9;
+      border: 1px solid #ccfbf1;
+      border-radius: 10px;
+      padding: 18px 20px;
+      margin: 20px 0;
+    }
+    .highlight-box strong {
+      color: var(--primary-dark);
+    }
+    .footer {
+      border-top: 1px solid var(--border);
+      margin-top: 40px;
+      padding-top: 24px;
+      font-size: 14px;
+      color: var(--text-muted);
+      text-align: center;
+    }
+    a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <span class="badge">Official Policy</span>
+      <h1>Privacy Policy for Auto Refresher</h1>
+      <div class="meta">
+        <strong>Product:</strong> Auto Refresher (Chrome Extension) &bull; 
+        <strong>Developer:</strong> Innova IT Hub &bull; 
+        <strong>Effective Date:</strong> October 1, 2026
+      </div>
+    </div>
+
+    <div class="highlight-box">
+      <strong>Privacy Commitment:</strong> Auto Refresher is built with a strict <em>privacy-first architecture</em>. We do <strong>NOT</strong> collect, store, sell, transmit, or monetize any user personal data, browsing history, form inputs, or keystrokes. All extension operations run 100% locally in your browser.
+    </div>
+
+    <h2>1. Information We Do Not Collect</h2>
+    <p>Auto Refresher does not collect any personally identifiable information (PII) or telemetry. Specifically, we do NOT collect:</p>
+    <ul>
+      <li>Personal identification information (names, email addresses, phone numbers, IP addresses).</li>
+      <li>Browsing history, search queries, or visited URL histories.</li>
+      <li>Form inputs, credentials, authentication tokens, passwords, or typed text.</li>
+      <li>External analytics, telemetry, crash reporting, or tracking cookies.</li>
+    </ul>
+
+    <h2>2. Data Stored Locally on Your Device</h2>
+    <p>All settings and configuration options created by the user are stored strictly locally on your own computer using Chrome's native offline storage API (<code>chrome.storage.local</code>). This includes:</p>
+    <ul>
+      <li>Refresh intervals, timers, and countdown durations.</li>
+      <li>Anti-bot random delay configurations.</li>
+      <li>Visual countdown timer display preferences.</li>
+      <li>Page monitor keywords and alert sound preferences.</li>
+    </ul>
+    <p>This data never leaves your browser and is immediately deleted if you uninstall the extension or clear your browser storage.</p>
+
+    <h2>3. Chrome Permissions & Why They Are Used</h2>
+    <p>Auto Refresher requests only the minimal set of permissions necessary to deliver its core auto-refresh and tab management features:</p>
+    <ul>
+      <li><strong>storage:</strong> Used solely to save your refresh timer settings and preferences locally on your machine.</li>
+      <li><strong>alarms:</strong> Used to schedule and trigger accurate periodic page reloads via the Chrome alarms engine without background drift.</li>
+      <li><strong>contextMenus:</strong> Used to provide convenient right-click options (Pause for 5 mins, Pause for 15 mins, Resume, Stop) directly from any web page.</li>
+      <li><strong>tabs:</strong> Used to identify and reload the specific browser tab where the user activated the auto-refresh timer.</li>
+      <li><strong>notifications:</strong> Used exclusively to show local desktop alert banners when a user-configured keyword or condition is detected on a monitored page.</li>
+      <li><strong>power:</strong> Used optionally to prevent the system from going to sleep while a critical auto-refresh timer is running (only when explicitly enabled by the user).</li>
+      <li><strong>Host Permissions (&lt;all_urls&gt;):</strong> Required so that the extension can execute refresh commands and maintain scroll position across any website the user chooses to refresh.</li>
+    </ul>
+
+    <h2>4. Third-Party Sharing & External Servers</h2>
+    <p>Auto Refresher communicates with <strong>zero external servers</strong>. We do not integrate any third-party analytics (e.g., Google Analytics, Mixpanel), tracking scripts, or ad networks. There are no remote API calls made by the extension during operation.</p>
+
+    <h2>5. Zero Keylogging & Content Safety</h2>
+    <p>Auto Refresher includes an input-safety detector that pauses reloads when you are actively typing in a form or input box. This detector only checks the active DOM element tag type (e.g., <code>&lt;input&gt;</code> or <code>&lt;textarea&gt;</code>) to avoid disrupting your typing. It never records, reads, or stores the keystrokes or text entered.</p>
+
+    <h2>6. Changes to This Privacy Policy</h2>
+    <p>We may update this Privacy Policy from time to time to reflect any potential updates in functionality or Chrome Web Store policy compliance. Any updates will be posted directly to this URL with an updated effective date.</p>
+
+    <h2>7. Contact Us</h2>
+    <p>If you have any questions, suggestions, or concerns regarding this Privacy Policy or the Auto Refresher extension, please contact us:</p>
+    <ul>
+      <li><strong>Developer / Publisher:</strong> Innova IT Hub</li>
+      <li><strong>Email:</strong> <a href="mailto:support@innovaihub.com">support@innovaihub.com</a></li>
+    </ul>
+
+    <div class="footer">
+      &copy; 2026 Innova IT Hub. All rights reserved. &bull; Auto Refresher Extension
+    </div>
+  </div>
+</body>
+</html>
